@@ -1,8 +1,9 @@
 import React, { Component }  from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-import home from './components/home'
-import My from './components/My'
-import shopping from './components/shopping'
+// import { Router, Route } from 'react-router'
+import home from './containers/home'
+import My from './containers/My'
+import shopping from './containers/shopping'
 
 // import logo from './logo.svg';
 import './App.css';
